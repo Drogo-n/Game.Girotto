@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Projeto.1"/>
+        <attribute name="authors" value="diogo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-03-02 03:53:32 "/>
+        <attribute name="created" value="ZGlvZ287REVTS1RPUC1GUzZQSEQ4OzIwMjUtMDItMjU7IjA0OjQ3OjQzICI7Mjc5MQ=="/>
+        <attribute name="edited" value="ZGlvZ287REVTS1RPUC1GUzZQSEQ4OzIwMjUtMDMtMDI7IjAzOjQ5OjA3ICI7MTtkaW9nbztERVNLVE9QLUZTNlBIRDg7MjAyNS0wMy0wMjsiMDI6NTE6MDAgIjs1NzI4"/>
+        <attribute name="edited" value="ZGlvZ287REVTS1RPUC1GUzZQSEQ4OzIwMjUtMDMtMDI7IjAzOjUzOjMyICI7MzsyODkx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="op&#231;&#227;o" type="Integer" array="False" size=""/>
+            <assign variable="op&#231;&#227;o" expression="0"/>
+            <output expression="&quot;Bem-Vindo ao TRI-gayme&quot;" newline="True"/>
+            <output expression="&quot;Selecione uma op&#231;&#227;o&quot;" newline="True"/>
+            <output expression="&quot;1 - Perguntas e Respostas&quot;" newline="True"/>
+            <output expression="&quot;2 - Cobra na Caixa&quot;" newline="True"/>
+            <output expression="&quot;3 - Gousmas War&quot;" newline="True"/>
+            <output expression="&quot;4 - sair&quot;" newline="True"/>
+            <input variable="op&#231;&#227;o"/>
+            <if expression="op&#231;&#227;o == 1">
+                <then>
+                    <declare name="Resposta" type="String" array="False" size=""/>
+                    <output expression="&quot;Qual cor &#233; o C&#233;u?&quot;" newline="True"/>
+                    <output expression="&quot;A - Verde&quot;" newline="True"/>
+                    <output expression="&quot;B - Azul&quot;" newline="True"/>
+                    <output expression="&quot;C - Vermelho&quot;" newline="True"/>
+                    <output expression="&quot;D - Laranja&quot;" newline="True"/>
+                    <input variable="Resposta"/>
+                    <if expression="Resposta == &quot;B&quot;">
+                        <then>
+                            <output expression="&quot;vc acertou! Pr&#243;xima pergunta: &quot;" newline="True"/>
+                            <output expression="&quot;qual o tamanho da minha pica&quot;" newline="True"/>
+                            <output expression="&quot;A - 20cm&quot;" newline="True"/>
+                            <output expression="&quot;B - 30cm&quot;" newline="True"/>
+                            <output expression="&quot;C - 40cm&quot;" newline="True"/>
+                            <output expression="&quot;D - 50cm&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;vc errou&quot;" newline="True"/>
+                            <output expression="&quot;qual o tamanho da minha pica&quot;" newline="True"/>
+                            <output expression="&quot;A - 20cm&quot;" newline="True"/>
+                            <output expression="&quot;B - 30cm&quot;" newline="True"/>
+                            <output expression="&quot;C - 40cm&quot;" newline="True"/>
+                            <output expression="&quot;D - 50cm&quot;" newline="True"/>
+                        </else>
+                    </if>
+                    <input variable="Resposta"/>
+                    <if expression="Resposta == &quot;D&quot;">
+                        <then>
+                            <output expression="&quot;vc acertou! pr&#243;xima pergunta: &quot;" newline="True"/>
+                            <output expression="&quot;em q dia eu nasci?&quot;" newline="True"/>
+                            <output expression="&quot;A - 24/06&quot;" newline="True"/>
+                            <output expression="&quot;B - 25/12&quot;" newline="True"/>
+                            <output expression="&quot;C - 30/02&quot;" newline="True"/>
+                            <output expression="&quot;D - 08/04&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;vc errou&quot;" newline="True"/>
+                            <output expression="&quot;em q dia eu nasci?&quot;" newline="True"/>
+                            <output expression="&quot;A - 24/06&quot;" newline="True"/>
+                            <output expression="&quot;B - 25/12&quot;" newline="True"/>
+                            <output expression="&quot;C - 30/02&quot;" newline="True"/>
+                            <output expression="&quot;D - 08/04&quot;" newline="True"/>
+                        </else>
+                    </if>
+                    <input variable="Resposta"/>
+                    <if expression="Resposta == &quot;C&quot;">
+                        <then>
+                            <output expression="&quot;vc acertou! pr&#243;xima pergunta: &quot;" newline="True"/>
+                            <output expression="&quot;Qual &#233; a capital da Fran&#231;a?&quot;" newline="True"/>
+                            <output expression="&quot;A - Paris&quot;" newline="True"/>
+                            <output expression="&quot;B - Bel&#233;m&quot;" newline="True"/>
+                            <output expression="&quot;C - Xique-xique&quot;" newline="True"/>
+                            <output expression="&quot;D - Tokyo&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;vc errou, seu burro&quot;" newline="True"/>
+                            <output expression="&quot;Qual &#233; a capital da Fran&#231;a?&quot;" newline="True"/>
+                            <output expression="&quot;A - Paris&quot;" newline="True"/>
+                            <output expression="&quot;B - Bel&#233;m&quot;" newline="True"/>
+                            <output expression="&quot;C - Xique-xique&quot;" newline="True"/>
+                            <output expression="&quot;D - Tokyo&quot;" newline="True"/>
+                        </else>
+                    </if>
+                    <input variable="Resposta"/>
+                    <if expression="Resposta == &quot;A&quot;">
+                        <then>
+                            <output expression="&quot;vc acertou! proxima pergunta: &quot;" newline="True"/>
+                            <output expression="&quot;Qual &#233; o maior planeta do sistema solar?&quot;" newline="True"/>
+                            <output expression="&quot;A - O sol&quot;" newline="True"/>
+                            <output expression="&quot;B - Mercurio&quot;" newline="True"/>
+                            <output expression="&quot;C - jupiter&quot;" newline="True"/>
+                            <output expression="&quot;D - Marte&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;vc errou&quot;" newline="True"/>
+                            <output expression="&quot;Qual &#233; o maior planeta do sistema solar?&quot;" newline="True"/>
+                            <output expression="&quot;A - O sol&quot;" newline="True"/>
+                            <output expression="&quot;B - Mercurio&quot;" newline="True"/>
+                            <output expression="&quot;C - jupiter&quot;" newline="True"/>
+                            <output expression="&quot;D - Marte&quot;" newline="True"/>
+                        </else>
+                    </if>
+                    <input variable="Resposta"/>
+                    <declare name="op2" type="Integer" array="False" size=""/>
+                    <output expression="&quot;parabens vc terminou!&quot;" newline="True"/>
+                    <output expression="&quot;oq vc deseja?&quot;" newline="True"/>
+                    <output expression="&quot;1 - ir para o menu&quot;" newline="True"/>
+                    <output expression="&quot;2 - jogar novamente&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="op&#231;&#227;o == 2">
+                        <then/>
+                        <else>
+                            <if expression="op&#231;&#227;o == 3">
+                                <then/>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
