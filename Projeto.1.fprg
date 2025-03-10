@@ -4,10 +4,10 @@
         <attribute name="name" value="Projeto.1"/>
         <attribute name="authors" value="diogo"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2025-03-02 03:53:32 "/>
+        <attribute name="saved" value="2025-03-10 04:48:45 "/>
         <attribute name="created" value="ZGlvZ287REVTS1RPUC1GUzZQSEQ4OzIwMjUtMDItMjU7IjA0OjQ3OjQzICI7Mjc5MQ=="/>
         <attribute name="edited" value="ZGlvZ287REVTS1RPUC1GUzZQSEQ4OzIwMjUtMDMtMDI7IjAzOjQ5OjA3ICI7MTtkaW9nbztERVNLVE9QLUZTNlBIRDg7MjAyNS0wMy0wMjsiMDI6NTE6MDAgIjs1NzI4"/>
-        <attribute name="edited" value="ZGlvZ287REVTS1RPUC1GUzZQSEQ4OzIwMjUtMDMtMDI7IjAzOjUzOjMyICI7MzsyODkx"/>
+        <attribute name="edited" value="ZGlvZ287REVTS1RPUC1GUzZQSEQ4OzIwMjUtMDMtMTA7IjA0OjQ4OjQ1ICI7NDsyOTAw"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -33,23 +33,23 @@
                     <if expression="Resposta == &quot;B&quot;">
                         <then>
                             <output expression="&quot;vc acertou! Pr&#243;xima pergunta: &quot;" newline="True"/>
-                            <output expression="&quot;qual o tamanho da minha pica&quot;" newline="True"/>
-                            <output expression="&quot;A - 20cm&quot;" newline="True"/>
-                            <output expression="&quot;B - 30cm&quot;" newline="True"/>
-                            <output expression="&quot;C - 40cm&quot;" newline="True"/>
-                            <output expression="&quot;D - 50cm&quot;" newline="True"/>
+                            <output expression="&quot;Qual foi a primeira capital do Brasil?&quot;" newline="True"/>
+                            <output expression="&quot;A - Bras&#237;lia&quot;" newline="True"/>
+                            <output expression="&quot;B - Rio de Janeiro&quot;" newline="True"/>
+                            <output expression="&quot;C - Salvador&quot;" newline="True"/>
+                            <output expression="&quot;D - S&#227;o Paulo&quot;" newline="True"/>
                         </then>
                         <else>
                             <output expression="&quot;vc errou&quot;" newline="True"/>
-                            <output expression="&quot;qual o tamanho da minha pica&quot;" newline="True"/>
-                            <output expression="&quot;A - 20cm&quot;" newline="True"/>
-                            <output expression="&quot;B - 30cm&quot;" newline="True"/>
-                            <output expression="&quot;C - 40cm&quot;" newline="True"/>
-                            <output expression="&quot;D - 50cm&quot;" newline="True"/>
+                            <output expression="&quot;Qual foi a primeira capital do Brasil?&quot;" newline="True"/>
+                            <output expression="&quot;A - Bras&#237;lia&quot;" newline="True"/>
+                            <output expression="&quot;B - Rio de Janeiro&quot;" newline="True"/>
+                            <output expression="&quot;C - Salvador&quot;" newline="True"/>
+                            <output expression="&quot;D - S&#227;o Paulo&quot;" newline="True"/>
                         </else>
                     </if>
                     <input variable="Resposta"/>
-                    <if expression="Resposta == &quot;D&quot;">
+                    <if expression="Resposta == &quot;C&quot;">
                         <then>
                             <output expression="&quot;vc acertou! pr&#243;xima pergunta: &quot;" newline="True"/>
                             <output expression="&quot;em q dia eu nasci?&quot;" newline="True"/>
