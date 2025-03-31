@@ -71,3 +71,5 @@ Observações
 O jogo não usa bibliotecas complexas, apenas funcionalidades básicas de C
 
 Para melhor experiência, execute em um terminal com bom suporte a caracteres
+
+A Inteligência Artificial DeepSeek foi usada durante a programação deste jogo.
